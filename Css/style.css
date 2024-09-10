@@ -132,12 +132,10 @@ nav > ul > li > a:hover {
   justify-content: center;
   align-items: center;
   gap: 62px;
-  width: 1200px;
+  width: auto;
   margin: auto;
-  /* display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  gap: 60px; */
   display: flex;
+  flex-wrap: wrap;
 }
 
 .fade {
